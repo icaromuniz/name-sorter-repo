@@ -1,0 +1,12 @@
+/home/icaromuniz/Projects/name-sorter-solution/name-sorter-utest/bin/Debug/name-sorter-utest.dll
+/home/icaromuniz/Projects/name-sorter-solution/name-sorter-utest/bin/Debug/name-sorter-utest.pdb
+/home/icaromuniz/Projects/name-sorter-solution/name-sorter-utest/bin/Debug/name-sorter.exe
+/home/icaromuniz/Projects/name-sorter-solution/name-sorter-utest/bin/Debug/nunit.framework.dll
+/home/icaromuniz/Projects/name-sorter-solution/name-sorter-utest/bin/Debug/name-sorter.pdb
+/home/icaromuniz/Projects/name-sorter-solution/name-sorter-utest/bin/Debug/nunit.framework.pdb
+/home/icaromuniz/Projects/name-sorter-solution/name-sorter-utest/bin/Debug/nunit.framework.xml
+/home/icaromuniz/Projects/name-sorter-solution/name-sorter-utest/obj/Debug/name-sorter.UnitTests.csprojAssemblyReference.cache
+/home/icaromuniz/Projects/name-sorter-solution/name-sorter-utest/obj/Debug/name-sorter.UnitTests.csproj.CoreCompileInputs.cache
+/home/icaromuniz/Projects/name-sorter-solution/name-sorter-utest/obj/Debug/name-sorter.UnitTests.csproj.CopyComplete
+/home/icaromuniz/Projects/name-sorter-solution/name-sorter-utest/obj/Debug/name-sorter-utest.dll
+/home/icaromuniz/Projects/name-sorter-solution/name-sorter-utest/obj/Debug/name-sorter-utest.pdb
