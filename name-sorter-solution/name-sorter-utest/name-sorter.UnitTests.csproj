@@ -33,7 +33,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataHandlerTests.cs" />
-    <Compile Include="BubbleSorterTests.cs" />
+    <Compile Include="ArraySorterTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
