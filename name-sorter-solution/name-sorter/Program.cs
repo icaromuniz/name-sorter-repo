@@ -17,30 +17,25 @@ namespace NameSorter
 
             const string outputFileName = "sorted-names-list.txt";
             DataHandler dataHandler = new DataHandler();
-            var bubbleSorter = new BubbleSorter<string>();
 
             // reading data to array
             string[] namesList = dataHandler.ReadData(args[0]);
 
-            // does buble sorting
-            //bubbleSorter.Sort(namesList);
-
-            // does quick sorting
-            int[] intArr = { 10, 80, 30, 90, 40, 50, 70 };
+            // does sorting
+            var stopwatch = System.Diagnostics.Stopwatch.StartNew();
             new ArraySorter<string>().Sort(namesList);
-            //foreach (int n in intArr)
-            //{
-            //    Console.WriteLine(n);
-            //}
+            stopwatch.Stop();
 
+            Console.WriteLine("Sorting time: " + stopwatch.Elapsed + "\n");
+
+            // print sorted list to screen
             dataHandler.PrintToScreen(namesList);
+
             Console.WriteLine("\nPress any key to write result to the file \"" +
                     outputFileName + "\" and close...");
 
             dataHandler.PrintToFile(namesList, outputFileName);
             Console.ReadKey();
-
-            new ArraySorter<string>().Sort(namesList);
         }
     }
 }

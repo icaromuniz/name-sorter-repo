@@ -37,6 +37,7 @@
     <Compile Include="DataHandler.cs" />
     <Compile Include="BubbleSorter.cs" />
     <Compile Include="ArraySorter.cs" />
+    <Compile Include="Asset.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -33,8 +33,8 @@ namespace NameSorter
 
         private bool IsSortedPair(T precursor, T successor)
         {
-            string[] precursorArr = precursor.ToString().Trim().Split(' '); // FIXME
-            string[] successorArr = successor.ToString().Trim().Split(' '); // FIXME
+            string[] precursorArr = precursor.ToString().Trim().Split(' '); // FIXME change to comparator
+            string[] successorArr = successor.ToString().Trim().Split(' '); // FIXME change to comparator
 
             // compares last names
             return string.Compare(
