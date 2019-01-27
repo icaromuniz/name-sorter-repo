@@ -3,12 +3,12 @@
 namespace NameSorter
 {
 
-    public class BubbleSorter
+    public class BubbleSorter<T> where T : IComparable<T>
     {
-        public void Sort(string[] namesList)
+        public void Sort(T[] elementArray)
         {
 
-            int listLength = namesList.Length;
+            int listLength = elementArray.Length;
             bool hasSwapped;
 
             do
@@ -19,11 +19,11 @@ namespace NameSorter
                 {
 
                     // swaps unsorted pair
-                    if (!IsSortedPair(namesList[i - 1], namesList[i]))
+                    if (!IsSortedPair(elementArray[i - 1], elementArray[i]))
                     {
-                        string ithName = namesList[i];
-                        namesList[i] = namesList[i - 1];
-                        namesList[i - 1] = ithName;
+                        T ithName = elementArray[i];
+                        elementArray[i] = elementArray[i - 1];
+                        elementArray[i - 1] = ithName;
                         hasSwapped = true;
                     }
                 }
@@ -31,29 +31,17 @@ namespace NameSorter
             } while (hasSwapped);
         }
 
-        private bool IsSortedPair(string precursor, string successor)
+        private bool IsSortedPair(T precursor, T successor)
         {
-            string[] precursorArr = precursor.Split(' ');
-            string precursorsLastName = precursorArr[precursorArr.Length - 1];
-
-            string[] successorArr = successor.Split(' ');
-            string successorsLastName = successorArr[successorArr.Length - 1];
+            string[] precursorArr = precursor.ToString().Trim().Split(' '); // FIXME
+            string[] successorArr = successor.ToString().Trim().Split(' '); // FIXME
 
             // compares last names
-            if (string.Compare(precursorsLastName, successorsLastName) < 0)
-            {
-                return true;
-            }
-
-            // compares given names
-            else if (String.Compare(precursorsLastName, successorsLastName) == 0
-                     && String.Compare(precursor, successor) < 0)
-            {
-                return true;
-            }
-
-            return false;
+            return string.Compare(
+                    precursorArr[precursorArr.Length - 1] + precursor,
+                    successorArr[successorArr.Length - 1] + successor) < 0
+                ? true
+                : false;
         }
     }
-
 }

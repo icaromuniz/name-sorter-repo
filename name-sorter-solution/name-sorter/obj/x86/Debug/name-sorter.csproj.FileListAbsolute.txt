@@ -4,3 +4,9 @@
 /home/icaromuniz/Projects/name-sorter-solution/name-sorter/obj/x86/Debug/name-sorter.exe
 /home/icaromuniz/Projects/name-sorter-solution/name-sorter/obj/x86/Debug/name-sorter.pdb
 /home/icaromuniz/Projects/name-sorter-solution/name-sorter/obj/x86/Debug/name-sorter.csprojAssemblyReference.cache
+/home/icaromuniz/Projects/name-sorter-repo/name-sorter-solution/name-sorter/bin/Debug/name-sorter.exe
+/home/icaromuniz/Projects/name-sorter-repo/name-sorter-solution/name-sorter/bin/Debug/name-sorter.pdb
+/home/icaromuniz/Projects/name-sorter-repo/name-sorter-solution/name-sorter/obj/x86/Debug/name-sorter.csprojAssemblyReference.cache
+/home/icaromuniz/Projects/name-sorter-repo/name-sorter-solution/name-sorter/obj/x86/Debug/name-sorter.csproj.CoreCompileInputs.cache
+/home/icaromuniz/Projects/name-sorter-repo/name-sorter-solution/name-sorter/obj/x86/Debug/name-sorter.exe
+/home/icaromuniz/Projects/name-sorter-repo/name-sorter-solution/name-sorter/obj/x86/Debug/name-sorter.pdb

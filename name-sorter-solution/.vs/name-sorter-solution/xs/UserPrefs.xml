@@ -2,34 +2,10 @@
   <MonoDevelop.Ide.ItemProperties.name-sorter PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="name-sorter/BubbleSorter.cs">
     <Files>
-      <File FileName="name-sorter/Program.cs" Line="23" Column="42" />
-      <File FileName="name-sorter-utest/BubbleSorterTests.cs" Line="11" Column="22" />
-      <File FileName="name-sorter/BubbleSorter.cs" Line="18" Column="23" />
+      <File FileName="name-sorter/Program.cs" Line="32" Column="13" />
+      <File FileName="name-sorter/BubbleSorter.cs" Line="6" Column="33" />
+      <File FileName="name-sorter/ArraySorter.cs" Line="10" Column="31" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="name-sorter-solution" expanded="True" selected="True">
-            <Node name="name-sorter" expanded="True" />
-            <Node name="name-sorter.UnitTests" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="name-sorter-solution" expanded="True" selected="True">
-            <Node name="name-sorter.UnitTests" expanded="True">
-              <Node name="NameSorter" expanded="True">
-                <Node name="BubbleSorterUTest" expanded="True" />
-              </Node>
-              <Node name="nameSorterUTest" expanded="True">
-                <Node name="DataHandlerUTest" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
