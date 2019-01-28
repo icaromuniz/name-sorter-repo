@@ -32,7 +32,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataHandlerTests.cs" />
+    <Compile Include="ArrayDataHandlerTests.cs" />
     <Compile Include="ArraySorterTests.cs" />
   </ItemGroup>
   <ItemGroup>

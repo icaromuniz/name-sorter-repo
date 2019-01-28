@@ -16,10 +16,10 @@ namespace NameSorter
         {
 
             const string outputFileName = "sorted-names-list.txt";
-            DataHandler dataHandler = new DataHandler();
+            ArrayDataHandler dataHandler = new ArrayDataHandler();
 
             // reading data from file to array
-            string[] namesList = dataHandler.ReadData(args[0]);
+            string[] namesList = dataHandler.LoadArrayFromFile(args[0]);
 
             // does the sorting
             var stopwatch = System.Diagnostics.Stopwatch.StartNew();
@@ -28,12 +28,12 @@ namespace NameSorter
 
             // prints sorted list to screen
             Console.WriteLine("Sorting time: " + stopwatch.Elapsed + "\n");
-            dataHandler.PrintToScreen(namesList);
+            dataHandler.SendArrayToScreen(namesList);
 
             // prints sorted list to output file
             Console.WriteLine("\nPress any key to write result to the file \"" +
                     outputFileName + "\" and close...");
-            dataHandler.PrintToFile(namesList, outputFileName);
+            dataHandler.SendArrayToFile(namesList, outputFileName);
 
             Console.ReadKey();
         }

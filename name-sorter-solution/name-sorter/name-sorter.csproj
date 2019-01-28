@@ -34,8 +34,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="DataHandler.cs" />
-    <Compile Include="BubbleSorter.cs" />
+    <Compile Include="ArrayDataHandler.cs" />
     <Compile Include="ArraySorter.cs" />
     <Compile Include="Asset.cs" />
   </ItemGroup>
