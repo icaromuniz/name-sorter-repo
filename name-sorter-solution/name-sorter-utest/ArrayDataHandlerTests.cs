@@ -1,14 +1,16 @@
 ﻿using NUnit.Framework;
+using System;
 
 namespace NameSorter.UnitTest
 {
-    /* methods and tests:
+    /* methods their tests:
      *  LoadArrayFromFile(string path)
      *      test invalid path
      *      test invalid file content        
-     *      test empty lines    
+     *      test empty lines__    
      *  SendArrayToScreen(string[] dataArray)
-     *      test invalid arg    
+     *      test null array
+     *      test empty array
      *  SendArrayToFile(string[] dataArray, string path)
      *      test invalid dataArray
      *      test invalid path
@@ -29,13 +31,23 @@ namespace NameSorter.UnitTest
         [Test]
         public void LoadArrayFromFile_NoFilePathGiven_ThrowsException()
         {
-            Assert.That(() => _dataHandler.LoadArrayFromFile(null), Throws.ArgumentNullException);
+            Assert.That(() => _dataHandler.LoadArrayFromFile(null),
+                Throws.ArgumentNullException);
         }
 
         [Test]
-        public void ReadData_InvalidFilePathGiven_ThrowsException()
+        public void LoadArrayFromFile_InvalidFilePathGiven_ThrowsException()
         {
-            Assert.That(() => _dataHandler.LoadArrayFromFile("xyz.txt"), Throws.InstanceOf<System.IO.FileNotFoundException>());
+            Assert.That(() => _dataHandler.LoadArrayFromFile("xyz.txt"),
+                Throws.InstanceOf<System.IO.FileNotFoundException>());
         }
+
+        [Test]
+        public void SendArrayToScreen_InvalidArray_ThrowsException()
+        {
+            Assert.That(() => _dataHandler.LoadArrayFromFile(null),
+                Throws.ArgumentNullException);
+        }
+
     }
 }

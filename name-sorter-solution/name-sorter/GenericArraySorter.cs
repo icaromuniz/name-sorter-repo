@@ -6,7 +6,8 @@ namespace NameSorter
     {
         private readonly IComparator<T> _comparator;
 
-        public GenericArraySorter(IComparator<T> comparator) => _comparator = comparator;
+        public GenericArraySorter(IComparator<T> comparator) =>
+            _comparator = comparator ?? throw new ArgumentNullException();
 
         public void Sort(T[] array)
         {

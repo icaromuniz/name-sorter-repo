@@ -34,6 +34,7 @@
   <ItemGroup>
     <Compile Include="ArrayDataHandlerTests.cs" />
     <Compile Include="GenericArraySorterTests.cs" />
+    <Compile Include="FakeSurnameComparator.cs" />
     <Compile Include="SurnameComparatorTests.cs" />
   </ItemGroup>
   <ItemGroup>
