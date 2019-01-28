@@ -1,0 +1,3 @@
+/home/icaromuniz/Projects/name-sorter-repo/name-sorter-solution/name-sorter/bin/Release/name-sorter.exe
+/home/icaromuniz/Projects/name-sorter-repo/name-sorter-solution/name-sorter/obj/x86/Release/name-sorter.csproj.CoreCompileInputs.cache
+/home/icaromuniz/Projects/name-sorter-repo/name-sorter-solution/name-sorter/obj/x86/Release/name-sorter.exe

@@ -1,11 +1,6 @@
 ﻿<Properties StartupConfiguration="{C8753437-2BD3-41E5-83C7-A4028DC38CB1}|Default">
   <MonoDevelop.Ide.ItemProperties.name-sorter PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="name-sorter/ArraySorter.cs">
-    <Files>
-      <File FileName="name-sorter/Program.cs" Line="19" Column="24" />
-      <File FileName="name-sorter/ArraySorter.cs" Line="21" Column="14" />
-      <File FileName="name-sorter/ArrayDataHandler.cs" Line="19" Column="69" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
