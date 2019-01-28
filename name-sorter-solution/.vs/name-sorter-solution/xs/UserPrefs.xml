@@ -1,21 +1,13 @@
 ﻿<Properties StartupConfiguration="{C8753437-2BD3-41E5-83C7-A4028DC38CB1}|Default">
   <MonoDevelop.Ide.ItemProperties.name-sorter PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="name-sorter/Program.cs">
+    <Files>
+      <File FileName="name-sorter/Program.cs" Line="19" Column="51" />
+    </Files>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="name-sorter-solution" expanded="True">
-            <Node name="name-sorter.UnitTests" expanded="True">
-              <Node name="NameSorter" expanded="True">
-                <Node name="ArraySorterUTest" expanded="True">
-                  <Node name="Sort_UnsortedList_BecomeSorted" selected="True" />
-                </Node>
-              </Node>
-              <Node name="nameSorterUTest" expanded="True">
-                <Node name="DataHandlerUTest" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
+          <Node name="name-sorter-solution" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>

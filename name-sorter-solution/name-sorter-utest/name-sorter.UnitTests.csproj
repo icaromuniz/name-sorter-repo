@@ -33,7 +33,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayDataHandlerTests.cs" />
-    <Compile Include="ArraySorterTests.cs" />
+    <Compile Include="GenericArraySorterTests.cs" />
+    <Compile Include="SurnameComparatorTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

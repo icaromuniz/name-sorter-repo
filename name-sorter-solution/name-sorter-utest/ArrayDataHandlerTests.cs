@@ -6,6 +6,7 @@ namespace NameSorter.UnitTest
      *  LoadArrayFromFile(string path)
      *      test invalid path
      *      test invalid file content        
+     *      test empty lines    
      *  SendArrayToScreen(string[] dataArray)
      *      test invalid arg    
      *  SendArrayToFile(string[] dataArray, string path)

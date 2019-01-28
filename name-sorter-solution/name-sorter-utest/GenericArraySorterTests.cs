@@ -3,12 +3,12 @@
 namespace NameSorter.UnitTest
 {
     [TestFixture()]
-    public class ArraySorterTests
+    public class GenericArraySorterTests
     {
         [Test()]
         public void Sort_UnsortedList_BecomeSorted()
         {
-            var arraySorter = new ArraySorter<string>();
+            var arraySorter = new GenericArraySorter<string>(new SurnameComparator());
             string[] namesList = { "Phil Spencer", "Steve Jobs", "Aaron Jobs" };
             string[] result = { "Aaron Jobs", "Steve Jobs", "Phil Spencer" };
 

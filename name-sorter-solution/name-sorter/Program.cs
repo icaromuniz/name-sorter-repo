@@ -16,14 +16,17 @@ namespace NameSorter
         {
 
             const string outputFileName = "sorted-names-list.txt";
-            ArrayDataHandler dataHandler = new ArrayDataHandler();
+            var dataHandler = new ArrayDataHandler();
 
-            // reading data from file to array
+            // creates a sorter specifying a particular comparator
+            var nameListSorter = new GenericArraySorter<string>(new SurnameComparator());
+
+            // loading data from file to array
             string[] namesList = dataHandler.LoadArrayFromFile(args[0]);
 
             // does the sorting
             var stopwatch = System.Diagnostics.Stopwatch.StartNew();
-            new ArraySorter<string>().Sort(namesList);
+            nameListSorter.Sort(namesList);
             stopwatch.Stop();
 
             // prints sorted list to screen
