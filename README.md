@@ -1,10 +1,7 @@
 # name-sorter
 
-GlobalX Coding Assessment
+Developed using MonoDevelop, Ubuntu 18.04 and Intel i7-8700.
 
-Developed using MonoDevelop with Ubuntu 18.04
+Download the compiled executable file from: name-sorter-repo/name-sorter-solution/name-sorter/bin/Debug/name-sorter.exe
 
 Usage: $ name-sorter "unsorted-names-list.txt"
-
-executable: name-sorter-repo/name-sorter-solution/name-sorter/bin/Debug/name-sorter.exe
-      
